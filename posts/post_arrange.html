@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Amany Amer</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;600&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <style>
+            body{
+                font-family: 'Cairo', sans-serif;
+            }
+            
+            main{
+                display: flex;
+                justify-content: space-around;
+            }
+
+            .lnk-project:hover{
+                border-bottom: none;
+            }
+            
+            .projects h3:hover{
+                color: rgb(29, 221, 188);
+            }
+            
+            .lnk-project:hover{
+                text-decoration: none;
+            }
+            
+            ul li{
+                transition: 1s all;
+            }
+            
+            ul li:hover{
+                letter-spacing: 4px;
+            }
+            
+            .info img:hover{transform:rotate(0deg); cursor: default}
+            
+            img:hover{
+                transform:rotate(-360deg);
+                transition:1s all;
+                cursor: pointer;
+            }
+
+            img{
+                border-radius: 0;
+            }
+
+            header{
+                display: flex;
+                align-items: center;
+            }
+            
+            article, aside{
+                width: 40%;
+                margin: 100px auto;
+            }
+            
+            .article-title, .article-author, .article-subject, .article-img, .aside-title, .aside-lnks{
+                padding: 20px;
+                box-shadow: 0 5px 30px 0 rgb(29 221 188 / 25%);
+            }
+
+            .aside-lnks ul{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .aside-lnks ul li a{
+                letter-spacing: 0;
+                transition: 0.7s all;
+            }
+
+            .aside-lnks ul li a:hover{
+                border-bottom: none;
+                color: red;
+            }
+
+            .article-img{
+                text-align: center;
+                box-shadow: 0 5px 30px 0 rgb(29 221 188 / 25%);
+            }
+        </style>
+    </head>
+    
+    <body dir="rtl">
+        <header>
+            <ul>
+                <li><a href="../index.html#bio">من أنا</a></li>
+                <li><a href="../index.html#articles">أبرز المقالات</a></li>
+                <li><a href="../index.html#posts">أبرز البوستات</a></li>
+                <li><a href="../index.html#skills">المهارات</a></li>
+                <li><a href="../Amany_Amer_CV.pdf" target="_blank">تحميل السيرة الذاتية</a></li>
+            </ul>
+            
+            <a class="logo" href="index.html"><h3>أماني <span class="adel">عامر</span></h3></a>
+        </header>
+        
+        <main>
+            <article>
+                <div class="article-title">
+                    <h1>التنظيم</h1>
+                </div>
+                <div class="article-img">
+                    <img src="../img/posts/arrange.webp" alt="value">
+                </div>
+                <div class="article-author">كتبت: اماني عامر</div>
+                <div class="article-subject">
+                    <p>
+                        التنظيم
+                        ياتري ايه هو التنظيم؟ 🤔
+                        <br>
+                        التنظيم مهم في اي شركة، في أي مؤسسة وكمان أي عمل
+
+                        التنظيم بيضمن استمرار اي عمل في المؤسسات و بيساعد علي تحقيق أهدافها. 
+
+                        لايمكن لأي مدير أن ينجح في اعمال مؤسسته بدون تواجد اسس تنظيمية ادراية. 
+
+                        كمان التنطيم بيحدد اهدافها ومدي انجازها وتطورها. 
+
+                        وطبعا ميزته انه بيساعد علي اتخاذ قرارات سليمة، بيحقق الاهداف في الوقت المحدد لها، وكمان بيقلل من الفوضي والعشوائية. 👌
+
+                        نظم اكتر~ تنتج اكتر.. 🌻
+                    </p>
+                </div>                
+            </article>
+            <aside>
+                <div class="aside-title">
+                    <h2>بوستات أخرى</h2>
+                </div>
+                <div class="aside-lnks">
+                    <ul>
+                        <li><a href="artice_arrange.html">التنظيم</a></li>
+                        <li><a href="artice_arrange.html">الوظائف المطلوبة في السوق</a></li>
+                        <li><a href="artice_arrange.html">كورس اللغة الإنجليزية</a></li>
+                        <li><a href="artice_arrange.html">التنظيم</a></li>
+                        <li><a href="artice_arrange.html">التنظيم</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </main>
+        
+        <footer>
+            <p>جميع الحقوق محفوظة © 2024</p>
+        </footer>
+    </body>
+</html>
